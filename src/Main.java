@@ -1,7 +1,20 @@
 public class Main {
 
     public static void main(String[] args) {
-
+        int resultOne = add(5, 6);
+        System.out.println(resultOne);
+        String introduction = morningGreeting("Jason");
+        System.out.println(introduction);
+        String introduction2 = afternoonGreeting("Maxwell");
+        System.out.println(introduction2);
+        String tripling = triple("Joe Biden");
+        System.out.println(tripling);
+        double resultTwo = half(8);
+        System.out.println(resultTwo);
+        int resultThree = roundPositiveValueToNearestInteger(9.4);
+        System.out.println(resultThree);
+        int resultFour = roundNegativeValueToNearestInteger(-8.5);
+        System.out.println(resultFour);
     }
 
     // 1. add
