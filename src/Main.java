@@ -24,7 +24,7 @@ public class Main {
 
     // 2. add
     public static int add(int a, int b, int c, int d) {
-        return a + b + c + d;
+        return add(add(a, b), add(c, d));
     }
 
     // 3. morningGreeting
